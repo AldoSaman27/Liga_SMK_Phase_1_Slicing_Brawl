@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@0,9..40;1,9..40&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a, 
+p, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    color: white;
+}
+
+section .container {
+    width: 100%;
+    height: 100%;
+}
+
+section#Home .container,
+section#PembelajaranPopuler .container {
+    min-height: 100vh;
+    padding: 100px 0px;
+}
+
+section#Event .container,
+section#KategoriPopuler .container,
+section#TingkatkanSkill .container {
+    min-height: 50vh;
+    padding: 50px 0px;
+}
+
+/* Navbar */
+.Navbar {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+
+.Navbar .Menu ul li a {
+    color: black;
+}
+
+.Navbar .Menu ul li a:hover {
+    color: #3A10E5;
+}
+/* End of Navbar */
+
+/* Home */
+section#Home {
+    background-color: #F0F3FF;
+}
+
+section#Home .container div:last-child img {
+    width: 400px;
+}
+
+section#Home .container div:first-child h1 {
+    font-size: 65px;
+    font-weight: 640;
+}
+
+section#Home .container div:first-child p {
+    font-size: 18px;
+    margin-top: 20px;
+    color: gray;
+}
+
+section#Home .container div:first-child button {
+    background-color: #3A10E5;
+    padding: 10px 20px;
+    margin-top: 20px;
+    width: 200px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+section#Home .container div:first-child {
+    width: 40%;
+}
+/* End of Home */
+
+/* KBS */
+section#KBS {
+    width: 100%;
+    height: 150px;
+    background-color: #FACB3B;
+}
+/* End of KBS */
+
+/* Pembelajaran Populer */
+section#PembelajaranPopuler .container .Header h1 {
+    letter-spacing: 1.5px;
+    position: relative;
+}
+
+section#PembelajaranPopuler .container .Header h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 140px;
+    height: 15px;
+    background-color: #FDD5A1;
+    z-index: -1;
+}
+
+section#PembelajaranPopuler .container .Header ul li a {
+    padding: 10px;
+    color: gray;
+    font-weight: 500;
+}
+
+section#PembelajaranPopuler .container .Header ul li a:hover {
+    background-color: white;
+    box-shadow: 0px 0px 25px rgba(128, 128, 128, 0.500);
+    border-radius: 5px;
+    color: black;
+}
+
+section#PembelajaranPopuler .container .row .Card .Card-Body {
+    padding: 0px 20px;
+}
+
+section#PembelajaranPopuler .container .row .Card .Card-Body h6 {
+    width: 90%;
+}
+
+section#PembelajaranPopuler .container .row .Card .Card-Body p {
+    font-size: 13px;
+    color: #3A10E5;
+}
+
+section#PembelajaranPopuler .container .row .Card .Card-Body div p img {
+    margin-bottom: 1px;
+    margin-right: 2px;
+}
+
+section#PembelajaranPopuler .container .row .Card .New-Icon {
+    margin-top: -320px;
+    margin-left: 15px;
+}
+/* End of Pembelajaran Populer */
+
+/* Membership */
+section#Membership {
+    width: 100%;
+    height: 300px;
+    background-color: #FFF0E5;
+}
+
+section#Membership .container h1 {
+    width: 500px;
+    letter-spacing: 1.5px;
+}
+
+section#Membership .container button {
+    background-color: #3A10E5;
+    padding: 10px 20px;
+    margin-top: 20px;
+    width: 200px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    text-align: left;
+}
+/* End of Membership */
+
+/* Kategori Populer */
+section#KategoriPopuler .container h1 {
+    letter-spacing: 1.5px;
+    position: relative;
+}
+
+section#KategoriPopuler .container h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 140px;
+    height: 15px;
+    background-color: #FDD5A1;
+    z-index: -1;
+}
+
+section#KategoriPopuler .container a {
+    color: #3A10E5;
+}
+
+section#KategoriPopuler .container a img {
+    margin-top: 1px;
+    margin-left: 5px;
+}
+/* End of Kategori Populer */
+
+/* Tingkatkan Skill */
+section#TingkatkanSkill .container .Box {
+    width: 90%;
+    background-color: #F0F3FF;
+    padding: 80px;
+}
+
+section#TingkatkanSkill .container .Box div:first-child {
+    width: 50%;
+}
+
+section#TingkatkanSkill .container .Box div:last-child {
+    width: 55%;
+}
+
+section#TingkatkanSkill .container .Box div img {
+    width: 300px;
+}
+
+section#TingkatkanSkill .container .Box div h1 {
+    letter-spacing: 1.5px;
+}
+
+section#TingkatkanSkill .container .Box div p {
+    font-size: 15px;
+}
+
+section#TingkatkanSkill .container .Box div button {
+    background-color: #3A10E5;
+    padding: 10px 20px;
+    width: 200px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    text-align: left;
+}
+/* End of Tingkatkan skill */
+
+/* Event */
+section#Event .container h1 {
+    letter-spacing: 1.5px;
+    position: relative;
+}
+
+section#Event .container h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 109px;
+    width: 370px;
+    height: 15px;
+    background-color: #FDD5A1;
+    z-index: -1;
+}
+
+section#Event .container .Card .Card-Body .Date h2 {
+    color: #3A10E5;
+}
+
+section#Event .container .Card .Card-Body p {
+    font-size: 15px;
+}
+/* End of Event */
+
+/* Footer */
+footer {
+    background-color: #090E23;
+}
+
+footer .container {
+    height: 400px;
+}
+
+footer .container div:first-child div {
+    width: 25%;
+    margin: 10px;
+}
+
+footer .container div:first-child div:first-child p {
+    color: rgb(200, 200, 200);
+    font-size: 12px;
+}
+
+footer .container div:first-child div ul li {
+    margin: 10px 0px;
+}
+
+footer .container div:first-child div ul li a {
+    color: rgb(200, 200, 200);
+    font-size: 12px;
+}
+
+footer .container div:first-child div ul li a:hover {
+    color: #3A10E5;
+}
+
+footer .container div:first-child div button {
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+} 
+
+footer .container div:first-child div button:hover {
+    background-color: rgb(160, 160, 160);
+}
+
+footer .container div:last-child ul li a {
+    color: rgb(200, 200, 200);
+    font-size: 12px;
+}
+
+footer .container div:last-child ul li a:hover {
+    color: #3A10E5;
+}
+
+footer .container div:last-child p {
+    color: rgb(200, 200, 200);
+}
+/* End of Footer */
